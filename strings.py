@@ -2,9 +2,9 @@ import os
 
 def greetingString():
         os.system("CLS")
-        print('  ----------------------------------------- ')
-        print(f"  Welcome to the compliance check program ")
-        print('  ----------------------------------------- ')
+        print('  --------------------------------------- ')
+        print(f"  Welcome to the password audit program ")
+        print('  --------------------------------------- ')
 
 def menuString(deviceIP, username):
         os.system("CLS")
@@ -13,7 +13,9 @@ def menuString(deviceIP, username):
         print('\t\t    Menu - Please choose an option')
         print('\t\t     Only numbers are accepted')
         print('  -------------------------------------------------------------- ')
-        print('  >\t1. To check device tracking compliance on the device   <\n')   
+        print('  >\t     1. To test the below usernames and passwords      <') 
+        print('  >\t\t    Username: cisco, password cisco\t       <')
+        print('  >\t\t    Username: admin, password cisco\t      <\n')
         print('  >\t\t      2. Exit the program\t\t       <')
         print('  -------------------------------------------------------------- \n')
 
